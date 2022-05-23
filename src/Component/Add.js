@@ -68,7 +68,7 @@ const Add = ({ newplayer }) => {
               <Form.Label>posturl</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Enter rate"
+                placeholder="Enter image url"
                 onChange={(e) => setImage_url(e.target.value)}
               />
             </Form.Group>
